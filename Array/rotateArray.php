@@ -1,18 +1,11 @@
 <?php
-$input = [-1, -100, 3, 99, 35];
 
-$lastElement = array_pop($input);
-
-
-
-$input2 = [1, 2, 3, 4, 5, 6, 7];
-
-$input3 = [-1];
+$input = [1, 2, 3, 4, 5, 6, 7];
 
 $k = 2;
 
 echo '<pre>';
-print_r(rotateArray($input2, $k));
+print_r(rotateArray($input, $k));
 echo '</pre>';
 
 /**

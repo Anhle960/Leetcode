@@ -1,6 +1,6 @@
 <?php
 
-$arr = [5, 8, 10, 14, 25, 36, 40];
+// $arr = [5, 8, 10, 14, 25, 36, 40];
 
 // $arr = [3, 2, 4];
 
@@ -16,14 +16,6 @@ echo '</pre>';
 // linear search
 function twoSum($nums, $target)
 {
-    for ($i = 0; $i < count($nums) - 1; $i++) {
-        for ($j = $i + 1; $j < count($nums); $j++) {
-            if ($nums[$i] + $nums[$j] == $target) {
-                return ([$nums[$i], $nums[$j]]);
-            }
-        }
-    }
-
     //alternatively, use the hash map method to optimize time complexity.
 
     $map = [];

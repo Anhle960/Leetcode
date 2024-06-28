@@ -1,10 +1,6 @@
 <?php
 
-// $nums = [2, 2, 1];
-
 $nums = [4, 1, 2, 1, 2];
-
-// $nums = [1];
 
 echo '<pre>';
 print_r(singleNumber($nums));
